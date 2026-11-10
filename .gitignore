@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+*.egg-info/
+
+# Local data: the database and embedding model are built/downloaded, not committed
+data/
+*.db
+*.db-wal
+*.db-shm
+models/
